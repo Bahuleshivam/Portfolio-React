@@ -124,7 +124,8 @@ body {
 
 .card-desc-p {
     font-size: 12px;
-    margin-top: 8px;
+    margin-top: 15px;
+    margin-left: 13px;
 }
 
 @media screen and (max-width: 700px) {

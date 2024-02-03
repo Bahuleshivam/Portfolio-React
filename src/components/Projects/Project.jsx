@@ -30,8 +30,7 @@ const Project = () => {
                         <img src={Ecommerce} alt="" className='item-img' />
                         <div className="card-desc">
                             <h3>E-commerce Website</h3>
-                            <p className='card-desc-p'>A user can choose a product as per his choice He can filter the products by size as well as
-                                by the color he wants.</p>
+                            <p className='card-desc-p'>Engineered a responsive e-commerce site with React, Firebase, and Redux Toolkit</p>
                         </div>
                         <div className="live-btns">
                             <button className='project-btn'><Link to='https://github.com/Bahuleshivam/e-commerce' target='_blank' className='project-link'>GitHub</Link></button>
@@ -43,8 +42,7 @@ const Project = () => {
                         <img src={wedImg} alt="" className='item-img' />
                         <div className="card-desc">
                             <h3>Weather App</h3>
-                            <p className='card-desc-p'>. It can also
-demonstrate the power of these technologies in building web applications that interact with API </p>
+                            <p className='card-desc-p'>Crafted a dynamic weather app using HTML, CSS, and JavaScript, seamlessly integrating live data from APIs. </p>
                         </div>
                         <div className="live-btns">
                             <button className='project-btn'><Link to='https://github.com/Bahuleshivam/Weather-app' target='_blank' className='project-link'>GitHub</Link></button>
@@ -57,8 +55,7 @@ demonstrate the power of these technologies in building web applications that in
                         <img src={expense} alt="" className='item-img' />
                         <div className="card-desc">
                             <h3>Expense Tracker</h3>
-                            <p className='card-desc-p'>. It can also
-demonstrate the power of these technologies in building web applications that interact with API </p>
+                            <p className='card-desc-p'>Developed a responsive expense tracker website with React, showcasing a sleek interface and insightful income-expense graphs.</p>
                         </div>
                         <div className="live-btns">
                             <button className='project-btn'><Link to='https://github.com/Bahuleshivam/Expense-Tracker' target='_blank' className='project-link'>GitHub</Link></button>
@@ -70,8 +67,7 @@ demonstrate the power of these technologies in building web applications that in
                         <img src={music} alt="" className='item-img' />
                         <div className="card-desc">
                             <h3>Spotify Clone</h3>
-                            <p className='card-desc-p'>. It can also
-demonstrate the power of these technologies in building web applications that interact with API </p>
+                            <p className='card-desc-p'>Crafted a dynamic Spotify clone using HTML, CSS, and JavaScript.</p>
                         </div>
                         <div className="live-btns">
                             <button className='project-btn'><Link to='https://github.com/Bahuleshivam/spotify-clone' target='_blank' className='project-link'>GitHub</Link></button>
@@ -83,8 +79,7 @@ demonstrate the power of these technologies in building web applications that in
                         <img src={snake} alt="" className='item-img' />
                         <div className="card-desc">
                             <h3>Snake Game</h3>
-                            <p className='card-desc-p'>. It can also
-demonstrate the power of these technologies in building web applications that interact with API </p>
+                            <p className='card-desc-p'>Developed a responsive Snake game using HTML, CSS, and JavaScript. Dive into the classic gaming experience with a modern twist</p>
                         </div>
                         <div className="live-btns">
                             <button className='project-btn'><Link to='https://github.com/Bahuleshivam/Snake-Game' target='_blank' className='project-link'>GitHub</Link></button>
@@ -96,8 +91,7 @@ demonstrate the power of these technologies in building web applications that in
                         <img src={todo} alt="" className='item-img' />
                         <div className="card-desc">
                             <h3>Todo List</h3>
-                            <p className='card-desc-p'>. It can also
-demonstrate the power of these technologies in building web applications that interact with API </p>
+                            <p className='card-desc-p'>Crafted a sleek and efficient ToDo list app using HTML, CSS, and JavaScript.</p>
                         </div>
                         <div className="live-btns">
                             <button className='project-btn'><Link to='https://github.com/Bahuleshivam/06_Todo-list' target='_blank' className='project-link'>GitHub</Link></button>
@@ -109,8 +103,7 @@ demonstrate the power of these technologies in building web applications that in
                         <img src={drumkit} alt="" className='item-img' />
                         <div className="card-desc">
                             <h3>DrumKit</h3>
-                            <p className='card-desc-p'>. It can also
-demonstrate the power of these technologies in building web applications that interact with API </p>
+                            <p className='card-desc-p'>Designed an interactive drumkit website using HTML, CSS, and JavaScript. Immerse yourself in a musical experience as each button triggers a unique beat</p>
                         </div>
                         <div className="live-btns">
                             <button className='project-btn'><Link to='https://github.com/Bahuleshivam/Drum-Kit' target='_blank' className='project-link'>GitHub</Link></button>

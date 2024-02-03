@@ -1,9 +1,24 @@
 import React from 'react';
 import '../Contact/contact.css'
 import contactImg from '../Contact/contact.png'
-import profileImg from '../Contact/DSC_2732.png'
+import { useForm, ValidationError } from '@formspree/react';
+
 
 const Contact = () => {
+
+
+
+
+    const [state, handleSubmit] = useForm("xrgnpqej");
+    const ContactForm = () => {
+        if (state.succeeded) {
+            return <p>Thanks for joining!</p>;
+        } else {
+            handleSubmit()
+        }
+
+    }
+
     return (
         <div className='contact-container'>
 
@@ -23,14 +38,29 @@ const Contact = () => {
             </div>
 
             <div className="contact-form">
-                <form className='cont-form' action="https://getform.io/f/ba3f9442-83a8-46e6-9d60-1a1839aeaf34" method="POST" id='form'>
+                <form className='cont-form' action='https://formspree.io/f/xrgnpqej' method="POST" onSubmit={ContactForm} id='form'>
                     <label htmlFor="name">Name</label>
-                    <input className='form-input' type="text" placeholder='Name' id="userName" required/>
+                    <input className='form-input' type="text" placeholder='Name' name='name' id="userName" autoComplete='off' required />
+                    <ValidationError
+                        prefix="Email"
+                        field="email"
+                        errors={state.errors}
+                    />
                     <label htmlFor="email">Email</label>
-                    <input className='form-input' type="text" placeholder='***@gmai.com' id="userEmail" required/>
+                    <input className='form-input' type="text" name='email' placeholder='john@gmai.com' id="userEmail" autoComplete='off' required />
+                    <ValidationError
+                        prefix="Email"
+                        field="email"
+                        errors={state.errors}
+                    />
                     <label htmlFor="message">Message</label>
-                    <input className='form-input' type="text" placeholder='Hi, there' id='userMessage' required/>
-                    <button className='form-btn' id="submitButton" value="Send Email">Connect</button>
+                    <input className='form-input' type="text" name="text" placeholder='Hi, there' id='userMessage' autoComplete='off' required />
+                    <ValidationError
+                        prefix="Message"
+                        field="message"
+                        errors={state.errors}
+                    />
+                    <button disabled={state.submitting} className='form-btn' id="submitButton">Connect</button>
 
                 </form>
 
