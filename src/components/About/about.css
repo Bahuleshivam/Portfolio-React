@@ -161,9 +161,14 @@
     cursor: pointer;
   }
 
-  .detail{
+  .detail {
     width: 86%;
   }
 
- 
+  .animation-img {
+    top: 6%;
+    left: -50%;
+  }
+
+
 }
