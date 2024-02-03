@@ -120,6 +120,7 @@ body {
     .project-container {
         flex-direction: column;
         justify-content: space-around;
+        border-radius: 0px 0 70px 70px;
     }
 
     .project-desc {
