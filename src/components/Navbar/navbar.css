@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&family=Montserrat:wght@300;400;500;600;700;800&family=Noto+Sans:wght@900&family=Roboto&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    border-bottom: 0.5px solid #d0d0d0;
+    z-index: 2;
+    position: relative;
+    top: 0;
+}
+
+.navbar-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 30px 0px 30px;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    margin: 0 10px;
+}
+
+.navbar-brand:hover {
+    background-color: #4708f71a;
+    transition: all 0.2s ease-in;
+}
+
+.nav-name {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.whenHover {
+    width: 90px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    margin: 0 10px;
+}
+
+.whenHover:hover {
+    background-color: #4708f71a;
+    transition: all 0.2s ease-in;
+
+}
+
+.navbar-collapse {
+    margin: 0 37px 0 auto;
+    width: 40%;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+.link {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.link:hover {
+    color: #f912aa;
+}
+
+.arr1 {
+    color: #f912aa;
+}
+
+.arr2 {
+    color: red;
+}
+
+.active {
+    color: #f912aa;
+    background-color: #4708f71a;
+}
+
+
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.bar {
+    height: 3px;
+    width: 25px;
+    background-color: rgb(0, 0, 0);
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
+.bar.active {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.mobile{
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    background: white;
+    height: 300px;
+  }
+  
+  .mobile-ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+
+@media screen and (max-width: 700px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar-collapse {
+        display: none;
+    }
+
+    .navbar-container{
+        padding: 0 30px 0px 0px;
+    }
+}

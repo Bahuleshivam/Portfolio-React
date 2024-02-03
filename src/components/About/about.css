@@ -1,0 +1,169 @@
+.homepage-container {
+  width: 100%;
+  height: 100vh;
+  background: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.detail-heading {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.detail-p {
+  text-align: center;
+  margin: 36px 0 70px 0;
+  font-weight: 500;
+}
+
+.arr {
+  color: #be2fff;
+}
+
+.arr1 {
+  color: #f912aa;
+}
+
+.arr2 {
+  color: red;
+}
+
+.btn-home {
+  width: 130px;
+  height: 38px;
+  font-size: 16px;
+  border: 1px solid;
+  border-radius: 4px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.bg-btn-project {
+  background-color: black;
+  color: white;
+
+}
+
+.bg-btn-project:hover {
+  background-color: rgba(0, 0, 0, 0.78);
+}
+
+.bg-btn-resume {
+  background-color: white;
+  color: black;
+}
+
+.bg-btn-resume:hover {
+  background-color: rgba(255, 255, 255, 0.671);
+
+}
+
+.name {
+  color: red;
+}
+
+.contact-ul {
+  list-style: none;
+  display: flex;
+  width: 180px;
+  height: 30px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 56px;
+}
+
+.fa-github,
+.fa-linkedin-in,
+.fa-envelope {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.fa-github:hover,
+.fa-linkedin-in:hover,
+.fa-envelope:hover {
+  color: #ff197a;
+}
+
+.animation-img {
+  position: fixed;
+  z-index: 0;
+  opacity: 0.3;
+  top: 0%;
+  left: 0%;
+  animation: animi 120s linear infinite;
+  -webkit-filter: blur(5px);
+  width: 100%;
+
+}
+
+@keyframes animi {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.btn-link {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-link-resume {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-link {
+  color: black;
+}
+
+@media screen and (max-width: 700px) {
+
+  .detail-heading {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .btn-home {
+    width: 100px;
+    height: 34px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 4px;
+    margin: 0 4px;
+    cursor: pointer;
+  }
+
+  .detail{
+    width: 86%;
+  }
+
+ 
+}
