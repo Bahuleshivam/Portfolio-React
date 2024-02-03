@@ -8,6 +8,7 @@ import music from '../Projects/Images/music.png'
 import snake from '../Projects/Images/snake.jpg'
 import todo from '../Projects/Images/todo.png'
 import expense from '../Projects/Images/expense.png'
+import { Link } from 'react-router-dom';
 
 const Project = () => {
     return (
@@ -33,8 +34,8 @@ const Project = () => {
                                 by the color he wants.</p>
                         </div>
                         <div className="live-btns">
-                            <button className='project-btn'>GitHub</button>
-                            <button className='project-btn'>Demo</button>
+                            <button className='project-btn'><Link to='https://github.com/Bahuleshivam/e-commerce' target='_blank' className='project-link'>GitHub</Link></button>
+                            <button className='project-btn' > <Link to='https://fashionswear.netlify.app/' target='_blank' className='project-link'>Demo</Link></button>
                         </div>
                     </div>
 
@@ -46,8 +47,9 @@ const Project = () => {
 demonstrate the power of these technologies in building web applications that interact with API </p>
                         </div>
                         <div className="live-btns">
-                            <button className='project-btn'>GitHub</button>
-                            <button className='project-btn'>Demo</button>
+                            <button className='project-btn'><Link to='https://github.com/Bahuleshivam/Weather-app' target='_blank' className='project-link'>GitHub</Link></button>
+                            <button className='project-btn' > <Link to='https://weathersnapp.netlify.app/' target='_blank' className='project-link'>Demo</Link></button>
+                        
                         </div>
                     </div>
 
@@ -59,8 +61,9 @@ demonstrate the power of these technologies in building web applications that in
 demonstrate the power of these technologies in building web applications that interact with API </p>
                         </div>
                         <div className="live-btns">
-                            <button className='project-btn'>GitHub</button>
-                            <button className='project-btn'>Demo</button>
+                            <button className='project-btn'><Link to='https://github.com/Bahuleshivam/Expense-Tracker' target='_blank' className='project-link'>GitHub</Link></button>
+                            <button className='project-btn' > <Link to='https://expenses-trac.netlify.app/' target='_blank' className='project-link'>Demo</Link></button>
+                        
                         </div>
                     </div>
                     <div className="item">
@@ -71,8 +74,9 @@ demonstrate the power of these technologies in building web applications that in
 demonstrate the power of these technologies in building web applications that interact with API </p>
                         </div>
                         <div className="live-btns">
-                            <button className='project-btn'>GitHub</button>
-                            <button className='project-btn'>Demo</button>
+                            <button className='project-btn'><Link to='https://github.com/Bahuleshivam/spotify-clone' target='_blank' className='project-link'>GitHub</Link></button>
+                            <button className='project-btn' > <Link to='https://bahuleshivam.github.io/spotify-clone/' target='_blank' className='project-link'>Demo</Link></button>
+                        
                         </div>
                     </div>
                     <div className="item">
@@ -83,8 +87,9 @@ demonstrate the power of these technologies in building web applications that in
 demonstrate the power of these technologies in building web applications that interact with API </p>
                         </div>
                         <div className="live-btns">
-                            <button className='project-btn'>GitHub</button>
-                            <button className='project-btn'>Demo</button>
+                            <button className='project-btn'><Link to='https://github.com/Bahuleshivam/Snake-Game' target='_blank' className='project-link'>GitHub</Link></button>
+                            <button className='project-btn' > <Link to='https://bahuleshivam.github.io/Snake-Game/' target='_blank' className='project-link'>Demo</Link></button>
+                        
                         </div>
                     </div>
                     <div className="item">
@@ -95,8 +100,9 @@ demonstrate the power of these technologies in building web applications that in
 demonstrate the power of these technologies in building web applications that interact with API </p>
                         </div>
                         <div className="live-btns">
-                            <button className='project-btn'>GitHub</button>
-                            <button className='project-btn'>Demo</button>
+                            <button className='project-btn'><Link to='https://github.com/Bahuleshivam/06_Todo-list' target='_blank' className='project-link'>GitHub</Link></button>
+                            <button className='project-btn' > <Link to='https://todooslists.netlify.app/' target='_blank' className='project-link'>Demo</Link></button>
+                        
                         </div>
                     </div>
                     <div className="item">
@@ -107,8 +113,9 @@ demonstrate the power of these technologies in building web applications that in
 demonstrate the power of these technologies in building web applications that interact with API </p>
                         </div>
                         <div className="live-btns">
-                            <button className='project-btn'>GitHub</button>
-                            <button className='project-btn'>Demo</button>
+                            <button className='project-btn'><Link to='https://github.com/Bahuleshivam/Drum-Kit' target='_blank' className='project-link'>GitHub</Link></button>
+                            <button className='project-btn' > <Link to='https://drumkitts.netlify.app/' target='_blank' className='project-link'>Demo</Link></button>
+                        
                         </div>
                     </div>
                 </div>
